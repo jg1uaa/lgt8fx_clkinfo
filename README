@@ -9,7 +9,7 @@ F_CPU:8000000 F_OSC:32000000 F_DIV:4
 
 * PMCR(0x03)
 internal 32MHz RC-OSC: enabled
-internal 32kHz Rc-OSC: enabled
+internal 32kHz RC-OSC: enabled
 external 400kHz-32MHz OSC: disabled
 external 32kHz-400kHz OSC: disabled
 WDT clock source: internal 32MHz OSC / 16

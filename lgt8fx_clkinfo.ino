@@ -72,7 +72,7 @@ void setup() {
 
   Serial.print("internal 32MHz RC-OSC: ");
   display_endis(pmcr & 0x01);
-  Serial.print("internal 32kHz Rc-OSC: ");
+  Serial.print("internal 32kHz RC-OSC: ");
   display_endis(pmcr & 0x02);
   Serial.print("external 400kHz-32MHz OSC: ");
   display_endis(pmcr & 0x04);
