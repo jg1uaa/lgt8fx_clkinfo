@@ -1,0 +1,21 @@
+Displays LGT8Fx's clock setting, values from PMCR and CLKPR.
+
+example:
+* configuration
+#define F_CPU (32000000L/4)
+#define F_OSC 32000000L
+#define F_DIV 4
+F_CPU:8000000 F_OSC:32000000 F_DIV:4
+
+* PMCR(0x03)
+internal 32MHz RC-OSC: enabled
+internal 32kHz Rc-OSC: enabled
+external 400kHz-32MHz OSC: disabled
+external 32kHz-400kHz OSC: disabled
+WDT clock source: internal 32MHz OSC / 16
+clock source: internal 32MHz RC-OSC
+
+* CLKPR(0x02)
+prescaler: 1/4
+PB0 clock output: disabled
+PE5 clock output: disabled
